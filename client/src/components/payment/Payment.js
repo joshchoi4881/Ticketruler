@@ -1,7 +1,7 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
 
-const Payment = ({ price, amount }) => {
+const Payment = ({ price, amount, setPaid }) => {
   return (
     <>
       {amount ? (
@@ -9,7 +9,7 @@ const Payment = ({ price, amount }) => {
           name="Fantero"
           description={`$${price} per ticket`}
           amount={price * amount * 100}
-          token={(token) => console.log(token)}
+          token={(token) => setPaid(true)}
           stripeKey={process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY}
         >
           <button>Pay Now</button>

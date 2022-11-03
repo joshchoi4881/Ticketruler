@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start --prefix client",
-    "heroku": ""
+    "start": "npm run start --prefix client"
   },
   "repository": {
     "type": "git",
