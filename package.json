@@ -1,0 +1,19 @@
+{
+  "name": "fantero-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshchoi4881/Fantero-Front-End.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshchoi4881/Fantero-Front-End/issues"
+  },
+  "homepage": "https://github.com/joshchoi4881/Fantero-Front-End#readme"
+}
