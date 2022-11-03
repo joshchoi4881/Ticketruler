@@ -1,19 +1,20 @@
 {
-  "name": "fantero-front-end",
+  "name": "ticketruler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start --prefix client"
+    "start": "npm run start --prefix client",
+    "heroku": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshchoi4881/Fantero-Front-End.git"
+    "url": "git+https://github.com/joshchoi4881/Ticketruler.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joshchoi4881/Fantero-Front-End/issues"
+    "url": "https://github.com/joshchoi4881/Ticketruler/issues"
   },
-  "homepage": "https://github.com/joshchoi4881/Fantero-Front-End#readme"
+  "homepage": "https://github.com/joshchoi4881/Ticketruler#readme"
 }
